@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Word Applet Demo</title>
+        <vendor>Devin Kearns</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="WordApplet1.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Word Demo Applet"
+         main-class="WordApplet1"
+         width="300"
+         height="300">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>  
